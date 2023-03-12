@@ -1,0 +1,31 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=05921e3b_002D84e5_002D4605_002Db60f_002D55126d4a5f72/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="test 01" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::3DBBA221-9BA9-478B-A881-CCEB8D2C9958::net5.0::Competition.Tests.HTest.CheckFromFile&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::3DBBA221-9BA9-478B-A881-CCEB8D2C9958::net5.0::Competition.Tests.HTest.test 01&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::3DBBA221-9BA9-478B-A881-CCEB8D2C9958::net5.0::Competition.Tests.HTest.test 02&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::3DBBA221-9BA9-478B-A881-CCEB8D2C9958::net5.0::Competition.Tests.HTest.test 03&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::3DBBA221-9BA9-478B-A881-CCEB8D2C9958::net5.0::Competition.Tests.HTest.test 04&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::3DBBA221-9BA9-478B-A881-CCEB8D2C9958::net5.0::Competition.Tests.HTest.test 05&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::3DBBA221-9BA9-478B-A881-CCEB8D2C9958::net5.0::Competition.Tests.HTest.test 06&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::3DBBA221-9BA9-478B-A881-CCEB8D2C9958::net5.0::Competition.Tests.HTest.test 07&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::3DBBA221-9BA9-478B-A881-CCEB8D2C9958::net5.0::Competition.Tests.HTest.test 08&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::3DBBA221-9BA9-478B-A881-CCEB8D2C9958::net5.0::Competition.Tests.HTest.test 09&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::3DBBA221-9BA9-478B-A881-CCEB8D2C9958::net5.0::Competition.Tests.HTest.test 10&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::3DBBA221-9BA9-478B-A881-CCEB8D2C9958::net5.0::Competition.Tests.HTest.test 11&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::3DBBA221-9BA9-478B-A881-CCEB8D2C9958::net5.0::Competition.Tests.HTest.test 12&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::3DBBA221-9BA9-478B-A881-CCEB8D2C9958::net5.0::Competition.Tests.HTest.test 13&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::3DBBA221-9BA9-478B-A881-CCEB8D2C9958::net5.0::Competition.Tests.HTest.test 14&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::3DBBA221-9BA9-478B-A881-CCEB8D2C9958::net5.0::Competition.Tests.HTest.test 15&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::3DBBA221-9BA9-478B-A881-CCEB8D2C9958::net5.0::Competition.Tests.HTest.test 16&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::3DBBA221-9BA9-478B-A881-CCEB8D2C9958::net5.0::Competition.Tests.HTest.test 17&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::3DBBA221-9BA9-478B-A881-CCEB8D2C9958::net5.0::Competition.Tests.HTest.test 18&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::3DBBA221-9BA9-478B-A881-CCEB8D2C9958::net5.0::Competition.Tests.HTest.test 19&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::3DBBA221-9BA9-478B-A881-CCEB8D2C9958::net5.0::Competition.Tests.HTest.test 20&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::3DBBA221-9BA9-478B-A881-CCEB8D2C9958::net5.0::Competition.Tests.HTest.test 21&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::3DBBA221-9BA9-478B-A881-CCEB8D2C9958::net5.0::Competition.Tests.HTest.test 22&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::3DBBA221-9BA9-478B-A881-CCEB8D2C9958::net5.0::Competition.Tests.HTest.test 23&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::3DBBA221-9BA9-478B-A881-CCEB8D2C9958::net5.0::Competition.Tests.HTest.test 24&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::3DBBA221-9BA9-478B-A881-CCEB8D2C9958::net5.0::Competition.Tests.HTest.test 25&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

@@ -1,0 +1,12 @@
+D:\Github\my\Competition\Competition\Competition\obj\Debug\net5.0\Competition.csproj.AssemblyReference.cache
+D:\Github\my\Competition\Competition\Competition\obj\Debug\net5.0\Competition.GeneratedMSBuildEditorConfig.editorconfig
+D:\Github\my\Competition\Competition\Competition\obj\Debug\net5.0\Competition.AssemblyInfoInputs.cache
+D:\Github\my\Competition\Competition\Competition\obj\Debug\net5.0\Competition.AssemblyInfo.cs
+D:\Github\my\Competition\Competition\Competition\obj\Debug\net5.0\Competition.csproj.CoreCompileInputs.cache
+D:\Github\my\Competition\Competition\Competition\bin\Debug\net5.0\Competition.deps.json
+D:\Github\my\Competition\Competition\Competition\bin\Debug\net5.0\Competition.dll
+D:\Github\my\Competition\Competition\Competition\bin\Debug\net5.0\Competition.pdb
+D:\Github\my\Competition\Competition\Competition\obj\Debug\net5.0\Competition.dll
+D:\Github\my\Competition\Competition\Competition\obj\Debug\net5.0\refint\Competition.dll
+D:\Github\my\Competition\Competition\Competition\obj\Debug\net5.0\Competition.pdb
+D:\Github\my\Competition\Competition\Competition\obj\Debug\net5.0\ref\Competition.dll

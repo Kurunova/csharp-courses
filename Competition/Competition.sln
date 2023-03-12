@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Competition", "Competition\Competition.csproj", "{0806CFB1-53DF-4FDD-9B1F-5E05E6BE2415}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CompetitionApp", "CompetitionApp\CompetitionApp.csproj", "{B1062CB1-BA6E-402D-85F9-238950411398}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Competition.Tests", "Competition.Tests\Competition.Tests.csproj", "{3DBBA221-9BA9-478B-A881-CCEB8D2C9958}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0806CFB1-53DF-4FDD-9B1F-5E05E6BE2415}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0806CFB1-53DF-4FDD-9B1F-5E05E6BE2415}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0806CFB1-53DF-4FDD-9B1F-5E05E6BE2415}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0806CFB1-53DF-4FDD-9B1F-5E05E6BE2415}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B1062CB1-BA6E-402D-85F9-238950411398}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B1062CB1-BA6E-402D-85F9-238950411398}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B1062CB1-BA6E-402D-85F9-238950411398}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B1062CB1-BA6E-402D-85F9-238950411398}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3DBBA221-9BA9-478B-A881-CCEB8D2C9958}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DBBA221-9BA9-478B-A881-CCEB8D2C9958}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DBBA221-9BA9-478B-A881-CCEB8D2C9958}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DBBA221-9BA9-478B-A881-CCEB8D2C9958}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
