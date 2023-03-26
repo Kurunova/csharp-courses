@@ -8,7 +8,7 @@ public class User
 }
 
 [MemoryDiagnoser()]
-public class ExampleLinq
+internal class ExampleLinq
 {
 	private List<User> _users = new List<User>();
 
@@ -21,7 +21,7 @@ public class ExampleLinq
 		}
 	}
 
-	[Benchmark()]
+	[Benchmark]
 	public int ForeachExample()
 	{
 		var sum = 0;
@@ -34,7 +34,7 @@ public class ExampleLinq
 		return sum / _users.Count;
 	}
 	
-	[Benchmark()]
+	[Benchmark]
 	public int ForExample()
 	{
 		var sum = 0;
@@ -47,7 +47,7 @@ public class ExampleLinq
 		return sum / _users.Count;
 	}
 	
-	[Benchmark()]
+	[Benchmark]
 	public int LinqExample()
 	{
 		var sum = _users.Sum(t => t.Age);
@@ -56,10 +56,18 @@ public class ExampleLinq
 	}
 	
 		
-	[Benchmark()]
+	[Benchmark]
 	public int Linq2Example()
 	{
 		var sum = _users.Select(t => t.Age).Sum();
+
+		return sum / _users.Count;
+	}
+	
+	[Benchmark]
+	public int Linq3Example()
+	{
+		var sum = _users.Select(static t => t.Age).Sum();
 
 		return sum / _users.Count;
 	}
