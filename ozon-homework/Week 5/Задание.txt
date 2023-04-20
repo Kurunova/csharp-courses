@@ -1,0 +1,20 @@
+реализовать батчевый kafka-консьюмер, который считывает N сообщений из топика и отдаёт их на обработку делегату обработчику void ProcessMessage<TKey, TValue>(IReadOnlyCollection<Message<TKey, TValue>> message) , который принимает на вход массив сообщений из топика.
+важно предусмотреть:
+корректную обработку ошибок
+правильное сохранение оффсета в рамках партиции
+задание со звёздочкой:
+реализовать exactly-once / идемпотентную обработку сообщений из топика с помощью редиса в качестве хранилища (отредактировано) 
+
+https://github.com/confluentinc/confluent-kafka-dotnet - с# клиент к кафке
+https://github.com/confluentinc/confluent-kafka-dotnet/wiki/Producer
+запуск kafka в docker:
+docker run -p 2181:2181 -p 9092:9092 -e ADVERTISED_HOST=127.0.0.1  -e NUM_PARTITIONS=10 johnnypark/kafka-zookeeper
+https://github.com/StackExchange/StackExchange.Redis - c# клиент к редису
+запуск redis в docker:
+docker run -p 6379:6379 redis
+запуск redis-cli:
+docker ps
+docker exec -it <redis_container_id> sh
+https://redis.io/commands/
+то самое видео про тюнинг продьюссера и механизм его работы:
+https://www.youtube.com/watch?v=oQe7PpDDdzA

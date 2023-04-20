@@ -8,7 +8,7 @@ public class User
 }
 
 [MemoryDiagnoser()]
-internal class ExampleLinq
+public class ExampleLinq
 {
 	private List<User> _users = new List<User>();
 

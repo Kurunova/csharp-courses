@@ -3,7 +3,7 @@ using ozon_course.Pools.Data;
 
 namespace ozon_course.Pools;
 
-public class PoolTest
+internal class PoolTest
 {
 	private PoolManager _poolManager = new PoolManager();
 
