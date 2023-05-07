@@ -5,11 +5,11 @@ namespace WeatherHomeStation_DataAccess;
 
 public class GeneratorGrpcService
 {
-	public void Get()
+	public static void Get()
 	{
 		try
 		{
-			using (var channel = GrpcChannel.ForAddress("https://localhost:50001"
+			using (var channel = GrpcChannel.ForAddress("https://localhost:7298"
 				       //, new GrpcChannelOptions(){ HttpHandler = new GrpsWebHandler( new HttpClientHandler()) }
 				       , new GrpcChannelOptions(){ HttpHandler = new HttpClientHandler() }
 			       ))

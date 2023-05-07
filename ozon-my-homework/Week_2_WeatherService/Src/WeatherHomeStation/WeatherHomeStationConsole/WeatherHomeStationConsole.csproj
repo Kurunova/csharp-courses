@@ -8,4 +8,8 @@
         <LangVersion>10</LangVersion>
     </PropertyGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\WeatherHomeStation_DataAccess\WeatherHomeStation_DataAccess.csproj" />
+    </ItemGroup>
+
 </Project>
