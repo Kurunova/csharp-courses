@@ -1,0 +1,52 @@
+﻿syntax = "proto3";
+
+package WeatherStationEmulator.GrpcServices;
+
+option csharp_namespace = "WeatherStationEmulator.GrpcServices";
+
+import "google/protobuf/empty.proto";
+import "google/protobuf/timestamp.proto";
+
+service Generator{
+  rpc EventStream(google.protobuf.Empty) returns (stream EventResponse);
+
+  rpc EventStreamDuplex(stream EventStreamDuplexRequest) returns (stream EventResponse);
+
+  rpc GetState(GetStateRequest) returns (GetStateResponse);
+}
+
+message EventStreamDuplexRequest
+{
+  State state = 1;
+}
+
+message EventResponse
+{
+  int64 id = 1;
+  string name = 2;
+  google.protobuf.Timestamp created_at = 3;
+  google.protobuf.Timestamp updated_at = 4;
+  State state = 5;
+}
+
+enum State {
+  CREATED = 0;
+  UPDATED = 1;
+  DELETED = 2;
+}
+
+message GetStateRequest
+{
+  repeated int64 id = 1;
+}
+
+message GetStateResponse
+{
+  repeated StateResponse result = 1;
+}
+
+message StateResponse
+{
+  int64 id = 1;
+  State state = 5;
+}

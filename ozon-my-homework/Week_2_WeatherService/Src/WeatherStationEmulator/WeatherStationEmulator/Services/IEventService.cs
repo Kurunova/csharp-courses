@@ -1,4 +1,5 @@
 ﻿using WeatherStationEmulator.Common;
+using WeatherStationEmulator.GrpcServices;
 
 namespace WeatherStationEmulator.Services;
 

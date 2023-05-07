@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using WeatherStationEmulator.Common;
+using WeatherStationEmulator.GrpcServices;
 using WeatherStationEmulator.Services;
 
 namespace WeatherStationEmulator.Controllers;

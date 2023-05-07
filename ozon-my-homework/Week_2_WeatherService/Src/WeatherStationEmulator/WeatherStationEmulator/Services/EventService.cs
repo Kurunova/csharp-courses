@@ -1,4 +1,6 @@
-﻿using WeatherStationEmulator.Common;
+﻿using Google.Protobuf.WellKnownTypes;
+using WeatherStationEmulator.GrpcServices;
+using State = WeatherStationEmulator.Common.State;
 
 namespace WeatherStationEmulator.Services;
 
@@ -20,8 +22,8 @@ public class EventService : IEventService
 		{
 			((EventResponse)result).State = ((EventResponse)result).State switch
 			{
-				State.Created => State.Updated,
-				State.Updated => State.Deleted,
+				GrpcServices.State.Created => GrpcServices.State.Updated,
+				GrpcServices.State.Updated => GrpcServices.State.Deleted,
 				_ => ((EventResponse)result).State
 			};
 		}
@@ -33,9 +35,9 @@ public class EventService : IEventService
 			{
 				Id = id,
 				Name = name,
-				State = State.Created,
-				CreatedAt = DateTime.UtcNow,
-				UpdatedAt = DateTime.UtcNow
+				State = GrpcServices.State.Created,
+				CreatedAt = DateTime.UtcNow.ToTimestamp(),
+				UpdatedAt = DateTime.UtcNow.ToTimestamp()
 			};
 			_eventStore.AddEvent(id, result);
 		}
